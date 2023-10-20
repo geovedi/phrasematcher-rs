@@ -1,0 +1,10 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["jim"]
+
+[dependencies]
+crc = "1.7"
+bincode = "1.3"
+serde = { version = "1", features = ["derive"] }
+serde_derive = "1"
